@@ -6,11 +6,14 @@ public class EVENODD {
         System.out.print("Enter an integer to check: ");
         int number = scanner.nextInt();
         
-        if (number % 2 == 0) {
+        if (number == 0) {
+            System.out.println("The given number is Zero");
+        } else if (number % 2 == 0) {
             System.out.println("The given number " + number + " is Even");
         } else {
             System.out.println("The given number " + number + " is Odd");
         }
+
         
         scanner.close(); 
     }
