@@ -12,6 +12,8 @@ public class EVENODD {
             System.out.println("The given number " + number + " is Even");
         } else {
             System.out.println("The given number " + number + " is Odd");
+        } }else{
+            System.out.println("The given number" + number + "is negative")
         }
 
         
