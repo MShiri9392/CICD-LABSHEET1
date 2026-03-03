@@ -13,9 +13,11 @@ public class EVENODD {
         } else {
             System.out.println("The given number " + number + " is Odd");
         } }else{
-            System.out.println("The given number" + number + "is negative")
+            System.out.println("The given number" + number + "is negative");
+                System.out.println("success");
         }
 
+         
         
         scanner.close(); 
     }
